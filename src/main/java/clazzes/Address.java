@@ -1,7 +1,6 @@
 package clazzes;
 
 public class Address {
-
     private final String city;
     private final String postalCode;
 

@@ -1,7 +1,5 @@
 package clazzes;
 
-import clazzes.Address;
-
 import java.util.List;
 
 public class Person {
