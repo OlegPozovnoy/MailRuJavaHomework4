@@ -4,7 +4,7 @@ import helpers.StringHelper;
 
 import java.util.Collection;
 
-public class jsonSerializer extends PositionalSerializer {
+public class JSONSerializer extends PositionalSerializer {
     //удаляем последнюю запятую в последовательности элементов
     public StringBuilder postProcess(StringBuilder result) {
         return result.deleteCharAt(result.length() - 1);

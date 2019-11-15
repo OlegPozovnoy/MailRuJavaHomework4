@@ -4,7 +4,7 @@ import helpers.StringHelper;
 
 import java.util.Collection;
 
-public class xmlSerializer extends PositionalSerializer {
+public class XMLSerializer extends PositionalSerializer {
     public StringBuilder postProcess(StringBuilder result) {
         return result;
     }

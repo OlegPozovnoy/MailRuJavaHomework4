@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3b0eaa-8631-4331-9633-03c3a5bc53c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GeneralDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/clazzes/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/clazzes/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/StringHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serializer/PositionalSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serializer/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serializer/jsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serializer/xmlSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/jsonSerializerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/xmlSerializerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serializer/serializer/xmlSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/xmlSerializerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,62 +49,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="26" />
+          <entry key="java" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6847" />
+          <entry key="java" value="6856" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6847" />
+          <entry key="JAVA" value="6856" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/serializer/PositionalSerializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/serializer/Serializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GeneralDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -171,7 +119,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/helpers/StringHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -183,17 +131,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/jsonSerializerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,10 +159,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/xmlSerializerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+            <state relative-caret-position="181">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -545,10 +523,7 @@
         <option value="$PROJECT_DIR$/src/main/java/StringHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/serializer/xmlSerializerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/serializer/testclass/SerializerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/serializer/serializer/Test1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/serializer/serializer/Test3.java" />
         <option value="$PROJECT_DIR$/src/test/java/serializer/SerializerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/serializer/serializer/Test5.java" />
         <option value="$PROJECT_DIR$/src/test/java/serializer/jsonSerializerTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/serializer/serializer/Test2.java" />
@@ -559,6 +534,9 @@
         <option value="$PROJECT_DIR$/src/main/java/serializer/xmlSerializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/GeneralDecoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/serializer/serializer/Test1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/serializer/serializer/Test3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/serializer/serializer/Test5.java" />
         <option value="$PROJECT_DIR$/src/test/java/serializer/serializer/xmlSerializerTest.java" />
       </list>
     </option>
@@ -693,7 +671,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.serializer.serializer in homework4_test">
+  <component name="RunManager" selected="JUnit.JSONSerializerTest">
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -709,6 +687,50 @@
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <method v="2" />
+    </configuration>
+    <configuration name="JSONSerializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework4_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serializer.serializer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="serializer.serializer" />
+      <option name="MAIN_CLASS_NAME" value="serializer.serializer.JSONSerializerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONSerializerTest.testSimple3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework4_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serializer.serializer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="serializer.serializer" />
+      <option name="MAIN_CLASS_NAME" value="serializer.serializer.JSONSerializerTest" />
+      <option name="METHOD_NAME" value="testSimple3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLSerializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework4_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serializer.serializer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="serializer.serializer" />
+      <option name="MAIN_CLASS_NAME" value="serializer.serializer.XMLSerializerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="[engine:junit-jupiter]/[class:serializer.serializer.xmlSerializerTest]" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework4_test" />
@@ -728,36 +750,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jsonSerializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework4_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="serializer.serializer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="serializer.serializer" />
-      <option name="MAIN_CLASS_NAME" value="serializer.serializer.jsonSerializerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="jsonSerializerTest.testSimple3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework4_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="serializer.serializer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="serializer.serializer" />
-      <option name="MAIN_CLASS_NAME" value="serializer.serializer.jsonSerializerTest" />
-      <option name="METHOD_NAME" value="testSimple3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="serializer.serializer in homework4_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework4_test" />
       <extension name="coverage">
@@ -772,34 +764,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xmlSerializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework4_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="serializer.serializer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="serializer.serializer" />
-      <option name="MAIN_CLASS_NAME" value="serializer.serializer.xmlSerializerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.jsonSerializerTest.testSimple3" />
-      <item itemvalue="JUnit.jsonSerializerTest" />
-      <item itemvalue="JUnit.xmlSerializerTest" />
+      <item itemvalue="JUnit.JSONSerializerTest.testSimple3" />
+      <item itemvalue="JUnit.JSONSerializerTest" />
+      <item itemvalue="JUnit.XMLSerializerTest" />
       <item itemvalue="JUnit.[engine:junit-jupiter]/[class:serializer.serializer.xmlSerializerTest]" />
       <item itemvalue="JUnit.serializer.serializer in homework4_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONSerializerTest" />
+        <item itemvalue="JUnit.XMLSerializerTest" />
         <item itemvalue="JUnit.serializer.serializer in homework4_test" />
-        <item itemvalue="JUnit.xmlSerializerTest" />
-        <item itemvalue="JUnit.jsonSerializerTest" />
         <item itemvalue="JUnit.[engine:junit-jupiter]/[class:serializer.serializer.xmlSerializerTest]" />
-        <item itemvalue="JUnit.jsonSerializerTest.testSimple3" />
+        <item itemvalue="JUnit.JSONSerializerTest.testSimple3" />
       </list>
     </recent_temporary>
   </component>
@@ -812,7 +790,7 @@
       <updated>1573511311569</updated>
       <workItem from="1573511315577" duration="14222000" />
       <workItem from="1573531062276" duration="1000000" />
-      <workItem from="1573723558735" duration="19745000" />
+      <workItem from="1573723558735" duration="20015000" />
     </task>
     <servers />
   </component>
@@ -849,7 +827,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34967000" />
+    <option name="totallyTimeSpent" value="35237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1003,16 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/serializer/SerializerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1023,36 +991,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1080,23 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/xmlSerializerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,6 +1080,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/Test5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serializer/serializer/xmlSerializerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

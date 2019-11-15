@@ -2,15 +2,15 @@ package serializer.serializer;
 
 import org.junit.jupiter.api.Test;
 import serializer.Serializer;
-import serializer.xmlSerializer;
+import serializer.XMLSerializer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class xmlSerializerTest {
-    Serializer xml = new xmlSerializer();
+public class XMLSerializerTest {
+    Serializer xml = new XMLSerializer();
 
     @Test
-    public void testSimple() throws IllegalAccessException{
+    void testSimple() throws IllegalAccessException{
         String result = "<serializer.serializer.Test1>\n" +
                 "  <field1>1</field1>\n" +
                 "  <field2>2.0</field2>\n" +
@@ -19,7 +19,7 @@ public class xmlSerializerTest {
     }
 
     @Test
-    public void testSimple2() throws IllegalAccessException{
+    void testSimple2() throws IllegalAccessException{
         String result ="<serializer.serializer.Test2>\n" +
                 "  <fields>\n" +
                 "    <1>1</1>\n" +
@@ -31,7 +31,7 @@ public class xmlSerializerTest {
     }
 
     @Test
-    public void testSimple3() throws IllegalAccessException{
+    void testSimple3() throws IllegalAccessException{
         String result = "<serializer.serializer.Test3>\n" +
                 "  <fields>\n" +
                 "    <1>1</1>\n" +
@@ -43,7 +43,7 @@ public class xmlSerializerTest {
     }
 
     @Test
-    public void testSimple4() throws IllegalAccessException{
+    void testSimple4() throws IllegalAccessException{
         String result = "<serializer.serializer.Test4>\n" +
                 "  <test1>\n" +
                 "    <field1>1</field1>\n" +
@@ -54,7 +54,7 @@ public class xmlSerializerTest {
     }
 
     @Test
-    public void testSimple5() throws IllegalAccessException{
+    void testSimple5() throws IllegalAccessException{
         String result = "<serializer.serializer.Test5>\n" +
                 "  <fields>\n" +
                 "    <1>\n" +
