@@ -1,13 +1,13 @@
 package serializer.serializer;
 
 import org.junit.jupiter.api.Test;
-import serializer.JSONSerializer;
+import serializer.JSONSerializerI;
 import serializer.Serializer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class JSONSerializerTest {
-    private Serializer json = new JSONSerializer();
+    private Serializer json = new JSONSerializerI();
 
     @Test
     void testSimple() {
