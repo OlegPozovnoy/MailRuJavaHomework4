@@ -7,7 +7,7 @@ public class GeneralDecoder {
         this.serializer = serializer;
     }
 
-    String serialize(Object o) throws IllegalAccessException {
+    String serialize(Object o) {
         return serializer.serialize(o);
     }
 }

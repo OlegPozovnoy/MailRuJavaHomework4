@@ -10,7 +10,7 @@ public class XMLSerializerTest {
     Serializer xml = new XMLSerializer();
 
     @Test
-    void testSimple() throws IllegalAccessException{
+    void testSimple() {
         String result = "<serializer.serializer.Test1>\n" +
                 "  <field1>1</field1>\n" +
                 "  <field2>2.0</field2>\n" +
@@ -19,7 +19,7 @@ public class XMLSerializerTest {
     }
 
     @Test
-    void testSimple2() throws IllegalAccessException{
+    void testSimple2() {
         String result ="<serializer.serializer.Test2>\n" +
                 "  <fields>\n" +
                 "    <1>1</1>\n" +
@@ -31,7 +31,7 @@ public class XMLSerializerTest {
     }
 
     @Test
-    void testSimple3() throws IllegalAccessException{
+    void testSimple3() {
         String result = "<serializer.serializer.Test3>\n" +
                 "  <fields>\n" +
                 "    <1>1</1>\n" +
@@ -43,7 +43,7 @@ public class XMLSerializerTest {
     }
 
     @Test
-    void testSimple4() throws IllegalAccessException{
+    void testSimple4() {
         String result = "<serializer.serializer.Test4>\n" +
                 "  <test1>\n" +
                 "    <field1>1</field1>\n" +
@@ -54,7 +54,7 @@ public class XMLSerializerTest {
     }
 
     @Test
-    void testSimple5() throws IllegalAccessException{
+    void testSimple5() {
         String result = "<serializer.serializer.Test5>\n" +
                 "  <fields>\n" +
                 "    <1>\n" +

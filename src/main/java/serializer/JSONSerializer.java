@@ -1,35 +1,28 @@
 package serializer;
 
-import helpers.StringHelper;
-
 import java.util.Collection;
 
-public class JSONSerializer extends PositionalSerializer {
+public final class JSONSerializer extends PositionalSerializer {
     //удаляем последнюю запятую в последовательности элементов
-    public StringBuilder postProcess(StringBuilder result) {
+    protected StringBuilder postProcess(StringBuilder result) {
         return result.deleteCharAt(result.length() - 1);
     }
 
     private StringBuilder printArrayElement(Object obj, int level) throws IllegalAccessException {
-        if (isPrimitive(obj))
-            return new StringBuilder(quoted(obj.toString()));
-        else
-            return new StringBuilder("{")
-                    .append(serializeFields(obj, level + 2))
-                    .append(printIndent(level + 1))
-                    .append("}");
+        return isPrimitive(obj) ?
+                new StringBuilder(quoted(obj.toString()))
+                : new StringBuilder("{")
+                .append(serializeFields(obj, level + 2))
+                .append(printIndent(level + 1))
+                .append("}");
     }
 
-    public StringBuilder printPrimitive(String name, Object value, int level) {
-        return printIndent(level)
-                .append(quoted(name))
-                .append(": ")
-                .append(quoted(value.toString()))
-                .append(",");
+    protected String printPrimitive(String name, Object value, int level) {
+        return printIndent(level) + formatKey(name) + quoted(value.toString()) + ",";
     }
 
-    public StringBuilder printCollection(String name, Collection<?> col, int level) throws IllegalAccessException {
-        StringBuilder result = printIndent(level).append(quoted(name)).append(": [");
+    protected StringBuilder printCollection(String name, Collection<?> col, int level) throws IllegalAccessException {
+        StringBuilder result = new StringBuilder(printIndent(level) + formatKey(name) + "[");
         for (Object obj : col) {
             result.append(printIndent(level + 1)).append(printArrayElement(obj, level)).append(",");
         }
@@ -39,28 +32,28 @@ public class JSONSerializer extends PositionalSerializer {
         return result;
     }
 
-    public StringBuilder printStructure(String name, Object o, int level) throws IllegalAccessException {
-        return printIndent(level).append(quoted(name))
-                .append(": {")
-                .append(serializeFields(o, level + 1))
-                .append(printIndent(level)
-                        .append("},"));
+    protected String printStructure(String name, Object o, int level) throws IllegalAccessException {
+        return printIndent(level) + formatKey(name) + "{" + serializeFields(o, level + 1) + printIndent(level) + "},";
     }
 
-    public StringBuilder openHeader(String name) {
-        return new StringBuilder("{");
+    protected String openHeader(String name) {
+        return "{";
     }
 
-    public StringBuilder closeHeader(String name) {
-        return new StringBuilder("}");
+    protected String closeHeader(String name) {
+        return "}";
     }
 
     // задаем отступ для данного формата
-    private StringBuilder printIndent(int level) {
-        return (new StringBuilder("\n")).append(StringHelper.repeat("  ", level));
+    private String printIndent(int level) {
+        return "\n" + "  ".repeat(level);
     }
 
-    private StringBuilder quoted(String str) {
-        return new StringBuilder("\"").append(str).append("\"");
+    private String quoted(String str) {
+        return "\"" + str + "\"";
+    }
+
+    private String formatKey(String name) {
+        return quoted(name) + ": ";
     }
 }

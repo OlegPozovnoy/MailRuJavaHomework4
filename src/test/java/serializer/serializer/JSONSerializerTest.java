@@ -1,16 +1,16 @@
 package serializer.serializer;
 
 import org.junit.jupiter.api.Test;
-import serializer.Serializer;
 import serializer.JSONSerializer;
+import serializer.Serializer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class JSONSerializerTest {
-    Serializer json = new JSONSerializer();
+class JSONSerializerTest {
+    private Serializer json = new JSONSerializer();
 
     @Test
-    void testSimple() throws IllegalAccessException {
+    void testSimple() {
         String result = "{\n" +
                 "  \"field1\": \"1\",\n" +
                 "  \"field2\": \"2.0\"\n" +
@@ -19,7 +19,7 @@ public class JSONSerializerTest {
     }
 
     @Test
-    void testSimple2() throws IllegalAccessException {
+    void testSimple2() {
         String result = "{\n" +
                 "  \"fields\": [\n" +
                 "    \"1\",\n" +
@@ -31,7 +31,7 @@ public class JSONSerializerTest {
     }
 
     @Test
-    void testSimple3() throws IllegalAccessException {
+    void testSimple3() {
         String result = "{\n" +
                 "  \"fields\": [\n" +
                 "    \"1\",\n" +
@@ -43,7 +43,7 @@ public class JSONSerializerTest {
     }
 
     @Test
-    void testSimple4() throws IllegalAccessException {
+    void testSimple4() {
         String serializer = json.serialize(new Test4());
         String result = "{\n" +
                 "  \"test1\": {\n" +
@@ -56,7 +56,7 @@ public class JSONSerializerTest {
     }
 
     @Test
-    void testSimple5() throws IllegalAccessException {
+    void testSimple5() {
         String result = "{\n" +
                 "  \"fields\": [\n" +
                 "    {\n" +

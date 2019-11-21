@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    public static void main(String args[]) throws IllegalAccessException {
+    public static void main(String args[]) {
         Address address = new Address("Moscow", "112233");
         List<String> phoneNumbers = new ArrayList<>();
         phoneNumbers.add("aaaa");

@@ -1,34 +1,31 @@
 package serializer;
 
-import helpers.StringHelper;
-
 import java.util.Collection;
 
-public class XMLSerializer extends PositionalSerializer {
+public final class XMLSerializer extends PositionalSerializer {
     public StringBuilder postProcess(StringBuilder result) {
         return result;
     }
 
     private StringBuilder printArrayElement(Object obj, int level) throws IllegalAccessException {
-        if (isPrimitive(obj))
-            return new StringBuilder(obj.toString());
-        else
-            return new StringBuilder(serializeFields(obj, level + 2))
-                    .append(printIndent(level + 1));
+        return isPrimitive(obj) ?
+                new StringBuilder(obj.toString())
+                : serializeFields(obj, level + 2).append(printIndent(level + 1));
     }
 
-    private StringBuilder printIndent(int size) {
-        return (new StringBuilder("\n")).append(StringHelper.repeat("  ", size));
+    private String printIndent(int size) {
+        return "\n" + "  ".repeat(size);
     }
 
-    public StringBuilder printPrimitive(String name, Object value, int level) {
-        return printIndent(level).append(openHeader(name))
-                .append(value.toString())
-                .append(closeHeader(name));
+    protected String printPrimitive(String name, Object value, int level) {
+        return printIndent(level)
+                + openHeader(name)
+                + value.toString()
+                + closeHeader(name);
     }
 
-    public StringBuilder printCollection(String name, Collection<?> col, int level) throws IllegalAccessException {
-        StringBuilder result = printIndent(level).append(openHeader(name));
+    protected StringBuilder printCollection(String name, Collection<?> col, int level) throws IllegalAccessException {
+        StringBuilder result = new StringBuilder(printIndent(level) + openHeader(name));
         int i = 1;
         for (Object obj : col) {
             result.append(printIndent(level + 1))
@@ -42,18 +39,19 @@ public class XMLSerializer extends PositionalSerializer {
         return result;
     }
 
-    public StringBuilder printStructure(String name, Object o, int level) throws IllegalAccessException {
-        return printIndent(level).append(openHeader(name))
-                .append(serializeFields(o, level + 1))
-                .append(printIndent(level))
-                .append(closeHeader(name));
+    protected String printStructure(String name, Object o, int level) throws IllegalAccessException {
+        return printIndent(level)
+                + openHeader(name)
+                + serializeFields(o, level + 1)
+                + printIndent(level)
+                + closeHeader(name);
     }
 
-    public StringBuilder openHeader(String name) {
-        return new StringBuilder("<").append(name).append(">");
+    protected String openHeader(String name) {
+        return "<" + name + ">";
     }
 
-    public StringBuilder closeHeader(String name) {
-        return new StringBuilder("</").append(name).append(">");
+    protected String closeHeader(String name) {
+        return "</" + name + ">";
     }
 }
