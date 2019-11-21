@@ -2,7 +2,7 @@ package serializer;
 
 import java.util.Collection;
 
-public final class JSONSerializerI implements Serializer, PositionalSerializerDetailsI {
+public final class JSONSerializer implements Serializer, PositionalSerializerDetailsI {
 
     private PositionalSerializer serializer = new PositionalSerializer();
 

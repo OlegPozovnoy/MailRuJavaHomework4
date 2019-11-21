@@ -1,7 +1,7 @@
 import clazzes.Address;
 import clazzes.Person;
-import serializer.JSONSerializerI;
-import serializer.XMLSerializerI;
+import serializer.JSONSerializer;
+import serializer.XMLSerializer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,9 +19,9 @@ public class Main {
         Person person = new Person("First", "Last", address, phoneNumbers, addresses);
 
         GeneralDecoder decoder = new GeneralDecoder();
-        decoder.setSerializer(new JSONSerializerI());
+        decoder.setSerializer(new JSONSerializer());
         System.out.println(decoder.serialize(person));
-        decoder.setSerializer(new XMLSerializerI());
+        decoder.setSerializer(new XMLSerializer());
         System.out.println(decoder.serialize(person));
     }
 }

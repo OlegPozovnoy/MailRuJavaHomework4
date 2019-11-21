@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3b0eaa-8631-4331-9633-03c3a5bc53c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/serializer/PositionalSerializerDetailsI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serializer/PositionalSerializerI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/serializer/PositionalSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/serializer/PositionalSerializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/serializer/jsonSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/serializer/xmlSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/serializer/serializer/jsonSerializerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/serializer/serializer/jsonSerializerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/serializer/serializer/xmlSerializerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/serializer/serializer/xmlSerializerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serializer/JSONSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serializer/JSONSerializerI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serializer/PositionalSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serializer/PositionalSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serializer/XMLSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serializer/XMLSerializerI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serializer/JSONSerializerI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serializer/JSONSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serializer/XMLSerializerI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serializer/XMLSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/serializer/serializer/JSONSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/JSONSerializerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/serializer/serializer/XMLSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serializer/serializer/XMLSerializerTest.java" afterDir="false" />
     </list>
@@ -114,8 +104,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/serializer/XMLSerializerI.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serializer/XMLSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
@@ -184,11 +174,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/serializer/JSONSerializerI.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serializer/JSONSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#254#255#0" expanded="true" />
                 <element signature="e#306#307#0" expanded="true" />
@@ -552,13 +542,13 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/serializer/serializer/JSONSerializerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/serializer/PositionalSerializerDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/serializer/XMLSerializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/serializer/JSONSerializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/serializer/PositionalSerializerI.java" />
         <option value="$PROJECT_DIR$/src/main/java/serializer/PositionalSerializerDetailsI.java" />
         <option value="$PROJECT_DIR$/src/main/java/serializer/XMLSerializerI.java" />
         <option value="$PROJECT_DIR$/src/main/java/serializer/PositionalSerializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/serializer/JSONSerializerI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serializer/XMLSerializer.java" />
       </list>
     </option>
   </component>
@@ -821,7 +811,7 @@
       <workItem from="1574147261511" duration="3375000" />
       <workItem from="1574150678466" duration="528000" />
       <workItem from="1574151238629" duration="2506000" />
-      <workItem from="1574295238284" duration="5663000" />
+      <workItem from="1574295238284" duration="5955000" />
     </task>
     <servers />
   </component>
@@ -858,11 +848,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47561000" />
+    <option name="totallyTimeSpent" value="47853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1127,17 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serializer/XMLSerializerI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/serializer/Serializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1169,10 +1147,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serializer/JSONSerializerI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/serializer/JSONSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serializer/XMLSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="e#254#255#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />

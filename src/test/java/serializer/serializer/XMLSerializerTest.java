@@ -2,12 +2,12 @@ package serializer.serializer;
 
 import org.junit.jupiter.api.Test;
 import serializer.Serializer;
-import serializer.XMLSerializerI;
+import serializer.XMLSerializer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class XMLSerializerTest {
-    Serializer xml = new XMLSerializerI();
+    Serializer xml = new XMLSerializer();
 
     @Test
     void testSimple() {

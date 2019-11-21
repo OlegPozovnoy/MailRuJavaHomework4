@@ -2,7 +2,7 @@ package serializer;
 
 import java.util.Collection;
 
-public final class XMLSerializerI implements Serializer, PositionalSerializerDetailsI {
+public final class XMLSerializer implements Serializer, PositionalSerializerDetailsI {
 
     private PositionalSerializerI serializer = new PositionalSerializer();
 
