@@ -2,22 +2,15 @@ package serializer;
 
 import java.util.Collection;
 
-public final class XMLSerializer implements Serializer, PositionalSerializerDetailsI {
-
-    private PositionalSerializerI serializer = new PositionalSerializer();
-
-    public String serialize(Object o) {
-        return serializer.serialize(o, this);
-    }
-
+public final class XMLSerializer implements PositionalSerializerDetails {
     public StringBuilder postProcess(StringBuilder result) {
         return result;
     }
 
-    private StringBuilder printArrayElement(Object obj, int level) throws IllegalAccessException {
+    private StringBuilder printArrayElement(Object obj, int level, PositionalSerializer serializer) throws IllegalAccessException {
         return serializer.isPrimitive(obj) ?
                 new StringBuilder(obj.toString())
-                : serializer.serializeFields(obj, level + 2, this).append(printIndent(level + 1));
+                : serializer.serializeFields(obj, level + 2).append(printIndent(level + 1));
     }
 
     private String printIndent(int size) {
@@ -31,13 +24,13 @@ public final class XMLSerializer implements Serializer, PositionalSerializerDeta
                 + closeHeader(name);
     }
 
-    public StringBuilder printCollection(String name, Collection<?> col, int level) throws IllegalAccessException {
+    public StringBuilder printCollection(String name, Collection<?> col, int level, PositionalSerializer serializer) throws IllegalAccessException {
         StringBuilder result = new StringBuilder(printIndent(level) + openHeader(name));
         int i = 1;
         for (Object obj : col) {
             result.append(printIndent(level + 1))
                     .append(openHeader(String.valueOf(i)))
-                    .append(printArrayElement(obj, level))
+                    .append(printArrayElement(obj, level, serializer))
                     .append(closeHeader(String.valueOf(i)));
             i++;
         }
@@ -46,10 +39,10 @@ public final class XMLSerializer implements Serializer, PositionalSerializerDeta
         return result;
     }
 
-    public String printStructure(String name, Object o, int level) throws IllegalAccessException {
+    public String printStructure(String name, Object o, int level, PositionalSerializer serializer) throws IllegalAccessException {
         return printIndent(level)
                 + openHeader(name)
-                + serializer.serializeFields(o, level + 1, this)
+                + serializer.serializeFields(o, level + 1)
                 + printIndent(level)
                 + closeHeader(name);
     }
